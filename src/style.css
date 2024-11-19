@@ -1,0 +1,71 @@
+:root {
+    --tp-base-background-color: hsla(0, 0%, 10%, 0.80);
+    --tp-base-shadow-color: hsla(0, 0%, 0%, 0.2);
+    --tp-button-background-color: hsla(0, 0%, 80%, 1.00);
+    --tp-button-background-color-active: hsla(0, 0%, 100%, 1.00);
+    --tp-button-background-color-focus: hsla(0, 0%, 95%, 1.00);
+    --tp-button-background-color-hover: hsla(0, 0%, 85%, 1.00);
+    --tp-button-foreground-color: hsla(0, 0%, 0%, 0.80);
+    --tp-container-background-color: hsla(0, 0%, 0%, 0.30);
+    --tp-container-background-color-active: hsla(0, 0%, 0%, 0.60);
+    --tp-container-background-color-focus: hsla(0, 0%, 0%, 0.50);
+    --tp-container-background-color-hover: hsla(0, 0%, 0%, 0.40);
+    --tp-container-foreground-color: hsla(0, 0%, 100%, 0.50);
+    --tp-groove-foreground-color: hsla(0, 0%, 0%, 0.20);
+    --tp-input-background-color: hsla(0, 0%, 0%, 0.30);
+    --tp-input-background-color-active: hsla(0, 0%, 0%, 0.60);
+    --tp-input-background-color-focus: hsla(0, 0%, 0%, 0.50);
+    --tp-input-background-color-hover: hsla(0, 0%, 0%, 0.40);
+    --tp-input-foreground-color: hsla(0, 0%, 100%, 0.50);
+    --tp-label-foreground-color: hsla(0, 0%, 100%, 0.50);
+    --tp-monitor-background-color: hsla(0, 0%, 0%, 0.30);
+    --tp-monitor-foreground-color: hsla(0, 0%, 100%, 0.30);
+}
+
+body {
+    margin: 0;
+    background: rgb(26, 26, 26);
+}
+
+/** Tweakpane */
+.tp-dfwv > div > div.tp-rotv_c > div > div.tp-fldv_c {
+    padding: 0;
+}
+
+body > div > div > div.tp-rotv_c > div > div.tp-fldv_i {
+    display: none;
+}
+
+.tp-tbpv_c>.tp-cntv, .tp-fldv_c>.tp-cntv {
+    margin-left: 0 !important;
+}
+
+.label {
+    position: absolute;
+    width: 50%;
+    padding-bottom: 16px;
+
+    text-align: center;
+    font-family: sans-serif;
+    color: #d3d3d3;
+}
+
+.cpu {
+    left: 0;
+    bottom: 50%;
+}
+
+.gpu {
+    right: 0;
+    bottom: 50%;
+}
+
+.derivatives {
+    left: 0;
+    bottom: 0%;
+}
+
+.two-points {
+    right: 0;
+    bottom: 0%;
+}
