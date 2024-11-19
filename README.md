@@ -1,2 +1,5 @@
-# Boilerplate experiments three.js
-Boilerplate to setup a experiment environment for three.js
+# Calculate normals
+
+An exercise for calculating normal vectors.
+
+https://zooizooi.github.io/calc-normal/
