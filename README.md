@@ -1,4 +1,4 @@
-# Calculate normals
+# Calc normal
 
 An exercise for calculating normal vectors.
 
